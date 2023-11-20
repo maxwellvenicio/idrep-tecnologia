@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-ul {
+ul, li{
   padding: 0px;
   list-style: none;
 }
