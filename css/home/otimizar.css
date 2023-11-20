@@ -1,0 +1,41 @@
+.otimizar-bg {
+  background: url(/imagens/banner.png) var(--cor-s2) no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.otimizar {
+  padding: 60px;
+  text-align: left;
+}
+
+.otimizar h1 {
+  margin-bottom: 32px;
+}
+
+.otimizar p {
+  margin-bottom: 32px;
+}
+
+.otimizar-img {
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (max-width:900px){
+  .otimizar-img {
+    display: none;
+  }
+}
+
+@media (max-width:800px) {
+  .otimizar {
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  .otimizar h1 {
+    margin-bottom: 16px;
+  }
+}
+

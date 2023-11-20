@@ -1,0 +1,22 @@
+/*CONFIG. GERAIS*/
+@import url(/CSS/geral/geral.css);
+
+/*UTILITARIOS*/
+@import url(/CSS/utilitarios/componentes.css);
+@import url(/CSS/utilitarios/cores.css);
+@import url(/CSS/utilitarios/fontes.css);
+
+/*HEADER*/
+@import url(/CSS/geral/header.css);
+
+/*CONTEUDO*/
+@import url(/CSS/home/introducao.css);
+@import url(/CSS/home/clientes.css);
+@import url(/CSS/home/recursos.css);
+@import url(/CSS/home/vantagens.css);
+@import url(/CSS/home/produtos.css);
+@import url(/CSS/home/otimizar.css);
+@import url(/CSS/home/contador.css);
+
+/*FOOTER*/
+@import url(/CSS/geral/footer.css);

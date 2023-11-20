@@ -1,0 +1,33 @@
+.header-bg {
+  background: #010c15;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto auto;
+  padding: 20px;
+}
+
+.header-menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header-menu li {
+  list-style: none;
+}
+
+.header-menu a {
+  color: #ffff;
+}
+
+.logo-idrep {
+  width: 171px;
+  height: 54px;
+  display: block;
+  max-width: 100%;
+}

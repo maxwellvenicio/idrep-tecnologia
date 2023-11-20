@@ -1,0 +1,29 @@
+.contador-bg{
+  background: url(/imagens/BANNER-02.png)  var(--cor-s2) no-repeat;
+}
+
+.contador {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contador-itens {
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center;
+}
+
+.contador h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (max-width:800px) {
+  .contador {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

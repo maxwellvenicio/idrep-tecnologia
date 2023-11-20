@@ -1,0 +1,19 @@
+.footer-bg {
+  background: var(--cor-s2);
+}
+
+.footer {
+  padding: 20px;
+  color: var(--cor-2);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width:800px) {
+  .footer {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+  }
+}

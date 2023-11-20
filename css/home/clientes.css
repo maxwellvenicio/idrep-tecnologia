@@ -1,0 +1,20 @@
+.clientes-bg{
+  background-color: var(--cor-p2);
+}
+
+.clientes{
+padding: 60px;
+text-align: center;
+}
+
+.clientes ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  }
+
+.clientes h1 {
+  margin-bottom: 32px;
+}
+

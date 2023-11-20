@@ -1,0 +1,12 @@
+.produtos-bg {
+  background-color: var(--cor-1);
+}
+
+.produtos {
+  padding: 60px;
+  text-align: center; 
+}
+
+.produtos h1 {
+  margin-bottom: 32px;
+}

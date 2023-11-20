@@ -1,0 +1,59 @@
+.f1-titulo{ 
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+
+.f2-subtitulo {
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 31px;
+}
+
+.f3-texto {
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.f4-titulo-itens {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.5px;
+}
+
+@media (max-width: 800px) {
+  .f1-titulo{ 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+  }
+  .f2-subtitulo {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  .f3-texto {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .f4-titulo-itens {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+  }
+}
