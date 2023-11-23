@@ -1,5 +1,5 @@
 .contador-bg{
-  background: url(/imagens/BANNER-02.png)  var(--cor-s1) no-repeat;
+  background: url(../../imagens/BANNER-02.png)  var(--cor-s1) no-repeat;
 }
 
 .contador {
