@@ -10,13 +10,13 @@
 @import  './geral/header.css';
 
 /*CONTEUDO*/
-@import 'css/home/introducao.css';
-@import 'css/home/clientes.css';
-@import 'css/home/recursos.css';
-@import 'css/home/vantagens.css';
-@import 'css/home/produtos.css';
-@import 'css/home/otimizar.css';
-@import 'css/home/contador.css';
+@import './home/introducao.css';
+@import './home/clientes.css';
+@import './home/recursos.css';
+@import './home/vantagens.css';
+@import './home/produtos.css';
+@import './home/otimizar.css';
+@import './home/contador.css';
 
 /*FOOTER*/
-@import 'css/geral/footer.css';
+@import './geral/footer.css';
