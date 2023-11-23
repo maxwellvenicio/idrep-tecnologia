@@ -1,5 +1,5 @@
 .otimizar-bg {
-  background: url(/imagens/banner.png) var(--cor-s1);
+  background: url(../../imagens/banner.png) var(--cor-s1);
   display: flex;
   align-items: center;
 }
