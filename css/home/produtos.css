@@ -3,10 +3,20 @@
 }
 
 .produtos {
-  padding: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
   text-align: center; 
 }
 
 .produtos h1 {
-  margin-bottom: 32px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+@media (max-width: 800px) {
+  .produtos {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 }

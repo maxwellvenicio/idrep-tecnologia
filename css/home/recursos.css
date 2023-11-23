@@ -1,10 +1,9 @@
 .recursos-bg{
   background: var(--cor-1);
-
 }
 
-.recursos{
-  padding-top: 40px;
+.recursos {
+  padding-top: 60px;
   padding-bottom: 60px;
   justify-content: center;
   margin: 0 auto;
@@ -14,15 +13,15 @@
 }
 
 .recursos-bg h1 {
-  margin-top: 32px;
+  padding-top: 80px;
   text-align: center;
-  }
+}
 
-  .recursos-bg span{
+.recursos-bg span{
     color: var(--cor-p2);
-    }  
+}  
 
-  .recursos-itens {
+.recursos-itens {
     padding: 40px 30px;
     width: 260px;
     height: 326px;
@@ -32,8 +31,20 @@
     box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.4);
     -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.4);
     -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.4);
+}
+
+.recursos-itens h3{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .recursos {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
-  .recursos-itens h3{
-    margin-bottom: 20px;
+  .recursos-bg h1 {
+    padding-top: 30px;
+    text-align: center;
   }
+}

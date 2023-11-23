@@ -1,11 +1,12 @@
 .otimizar-bg {
-  background: url(/imagens/banner.png) var(--cor-s2) no-repeat;
+  background: url(/imagens/banner.png) var(--cor-s1);
   display: flex;
   align-items: center;
 }
 
 .otimizar {
-  padding: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   text-align: left;
 }
 
@@ -19,7 +20,7 @@
 
 .otimizar-img {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 @media (max-width:900px){
@@ -30,7 +31,8 @@
 
 @media (max-width:800px) {
   .otimizar {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: center;
     text-align: center;
   }

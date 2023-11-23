@@ -1,29 +1,36 @@
 .contador-bg{
-  background: url(/imagens/BANNER-02.png)  var(--cor-s2) no-repeat;
+  background: url(/imagens/BANNER-02.png)  var(--cor-s1) no-repeat;
 }
 
 .contador {
+  min-height: 400px;
+  align-items: center;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 
 .contador-itens {
-  justify-content: center;
+  justify-content:space-around;
   margin: 0 auto;
   display: flex;
+  gap: 60px;
   flex-wrap: wrap;
-  gap: 100px;
   text-align: center;
 }
 
 .contador h1 {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 @media (max-width:800px) {
   .contador {
-    padding-top: 80px;
-    padding-bottom: 80px;
+        min-height: 0px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+  }
+
+  .contador-itens {
+    gap: 20px;
   }
 }

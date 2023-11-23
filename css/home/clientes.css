@@ -3,8 +3,10 @@
 }
 
 .clientes{
-padding: 60px;
-text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  align-items: center;
 }
 
 .clientes ul{
@@ -12,9 +14,20 @@ text-align: center;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  gap: 20px;
   }
 
 .clientes h1 {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
+@media (max-width: 800px) {
+  .clientes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .clientes ul{
+      gap: 30px;
+    }
+}

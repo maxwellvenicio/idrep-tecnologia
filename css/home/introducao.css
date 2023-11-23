@@ -1,17 +1,16 @@
 .introducao-bg {
-  background: var(--cor-2);
+  background: var(--cor-1);
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
+  padding-top: 80PX;
+  padding-bottom: 80PX;
 }
 
 .introducao-conteudo {
   align-self: end;
-  padding-top: 150px;
-  padding-bottom: 200px;
 }
 
 .introducao img {
@@ -33,17 +32,11 @@
 }
 
 @media (max-width: 800px) {
-  .introducao-bg {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
   .introducao {
     grid-template-columns: 1fr;
     gap: 32px;
-  }
-  .introducao-conteudo {
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
   .introducao h1 {
     margin-bottom: 20px;

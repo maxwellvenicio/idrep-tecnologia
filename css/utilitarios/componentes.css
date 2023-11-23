@@ -1,8 +1,8 @@
 .container {
   box-sizing: border-box;
   max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,21 +19,12 @@
   font: 600 1.125rem/1.35 "inter", sans-serif;
   max-width: max-content;
   margin-right: 15px;
+  margin-bottom: 40px;
   cursor: pointer;
 }
 
 .botao:hover {
   background: var(--cor-p3);
-}
-
-.botao.secundario {
-  background: var(--cor-1);
-  color: var(--cor-p2);
-  border: solid 1px var(--cor-p2);
-}
-
-.botao.secundario:hover {
-  background: var(--cor-2);
 }
 
 @media (max-width: 800px) {
