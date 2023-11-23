@@ -1,5 +1,5 @@
 /*CONFIG. GERAIS*/
-@import '/geral/geral.css';
+@import './geral/geral.css';
 
 /*UTILITARIOS*/
 @import './utilitarios/componentes.css';
@@ -7,7 +7,7 @@
 @import './utilitarios/fontes.css';
 
 /*HEADER*/
-@import  './geral/header.css';
+@import './geral/header.css';
 
 /*CONTEUDO*/
 @import './home/introducao.css';
