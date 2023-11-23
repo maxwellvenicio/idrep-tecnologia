@@ -1,22 +1,22 @@
 /*CONFIG. GERAIS*/
-@import url(/CSS/geral/geral.css);
+@import 'css/geral/geral.css';
 
 /*UTILITARIOS*/
-@import url(/CSS/utilitarios/componentes.css);
-@import url(/CSS/utilitarios/cores.css);
-@import url(/CSS/utilitarios/fontes.css);
+@import 'css/utilitarios/componentes.css';
+@import 'css/utilitarios/cores.css';
+@import 'css/utilitarios/fontes.css';
 
 /*HEADER*/
-@import url(/CSS/geral/header.css);
+@import 'css/geral/header.css';
 
 /*CONTEUDO*/
-@import url(/css/home/introducao.css);
-@import url(/css/home/clientes.css);
-@import url(/css/home/recursos.css);
-@import url(/css/home/vantagens.css);
-@import url(/css/home/produtos.css);
-@import url(/css/home/otimizar.css);
-@import url(/css/home/contador.css);
+@import 'css/home/introducao.css';
+@import 'css/home/clientes.css';
+@import 'css/home/recursos.css';
+@import 'css/home/vantagens.css';
+@import 'css/home/produtos.css';
+@import 'css/home/otimizar.css';
+@import 'css/home/contador.css';
 
 /*FOOTER*/
-@import url(/css/geral/footer.css);
+@import 'css/geral/footer.css';
