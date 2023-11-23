@@ -1,13 +1,13 @@
 /*CONFIG. GERAIS*/
-@import 'css/geral/geral.css';
+@import '/geral/geral.css';
 
 /*UTILITARIOS*/
-@import 'css/utilitarios/componentes.css';
-@import 'css/utilitarios/cores.css';
-@import 'css/utilitarios/fontes.css';
+@import './utilitarios/componentes.css';
+@import './utilitarios/cores.css';
+@import './utilitarios/fontes.css';
 
 /*HEADER*/
-@import "./css/geral/header.css";
+@import  './geral/header.css';
 
 /*CONTEUDO*/
 @import 'css/home/introducao.css';
