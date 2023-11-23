@@ -7,7 +7,7 @@
 @import 'css/utilitarios/fontes.css';
 
 /*HEADER*/
-@import 'css/geral/header.css';
+@import './css/geral/header.css';
 
 /*CONTEUDO*/
 @import 'css/home/introducao.css';
